@@ -1,128 +1,87 @@
 # 📦 Inventory Management System (C++)
 
-A console-based Inventory Management System built using C++. It helps manage products, track stock, update inventory records, generate customer bills, and calculate total inventory value.
+This is a simple Inventory Management System made using C++. I built this project to practise C++ programming and understand how inventory-related tasks can be managed through a console-based application.
 
-## 📌 About the Project
+## About the Project
 
-Managing products manually can be time-consuming and may lead to errors in stock records and billing.
+The program helps users manage product records in a small inventory. Users can add products, view available products, search, update or delete product details, manage stock, and generate bills.
 
-This project provides a simple digital solution for handling everyday inventory operations through a menu-driven interface.
+Product information is stored in a text file, so the data remains available even after closing the program.
 
-## 🎯 Why I Built This Project
-
-I built this project to improve my C++ programming skills and understand how programming concepts can be applied to real-world business problems.
-
-It helped me practise STL vectors, functions, structures, file handling, searching, input validation, and data management.
-
-## 🚀 Features
+## Features
 
 - Add new products
 - View all available products
 - Search products using Product ID
 - Update product details
 - Delete products
-- Increase or decrease stock
-- Low stock alerts (5 or fewer items)
+- Update product stock
+- Low stock alert (quantity 5 or less)
 - Generate customer bills
-- Automatically update stock after billing
+- Automatically reduce stock after billing
 - Calculate total inventory value
 - Save and load product data using file handling
 
-## 💻 Technologies Used
+## Technologies Used
 
-- **Language:** C++
-- **Compiler:** GCC / G++
-- **Storage:** Text File
-- **Libraries:** iostream, vector, string, iomanip, limits, fstream
+- C++
+- GCC Compiler
+- VS Code
 
-## 🧠 Concepts Applied
+## C++ Concepts Used
 
-- Structures
+- Structures (`struct`)
 - Functions
-- STL Vectors
-- Loops and Conditional Statements
-- Searching and Data Manipulation
+- Vectors
+- Conditional statements
+- Loops
 - File Handling
 - Input Validation
-- Basic Error Handling
+- Basic calculations
 
-## 🏪 Real-World Applications
+## How to Run the Project
 
-This project demonstrates basic inventory operations that can be useful for:
+1. Clone this repository:
 
-- Retail shops
-- Grocery stores
-- Electronics stores
-- Stationery shops
-- Small warehouses
+   ```bash
+   git clone https://github.com/shivamjhax/InventoryManagementSystem.git
+   ```
 
-## ⚙️ How to Run
+2. Open the project folder:
 
-**1. Clone the repository**
+   ```bash
+   cd InventoryManagementSystem
+   ```
 
-```bash
-git clone https://github.com/shivamjhax/InventoryManagementSystem.git
-```
+3. Compile the program:
 
-**2. Open the project directory**
+   ```bash
+   g++ main.cpp -o inventory
+   ```
 
-```bash
-cd InventoryManagementSystem
-```
+4. Run the program:
 
-**3. Compile the program**
+   ```bash
+   inventory.exe
+   ```
 
-```bash
-g++ -std=c++17 main.cpp -o inventory
-```
+## What I Learned
 
-**4. Run the program**
+While building this project, I practised using structures, vectors, functions, and file handling in C++. I also learned how to manage product records, validate user input, update stock quantities, and perform basic billing operations.
 
-Windows:
-```bash
-inventory.exe
-```
+## Future Improvements
 
-Linux:
-```bash
-./inventory
-```
+- Add a graphical user interface
+- Add user login and authentication
+- Store data in a database
+- Generate printable bills and reports
 
-## 📁 Project Structure
+## Project Status
 
-```text
-InventoryManagementSystem/
-│
-├── main.cpp
-├── products.txt
-└── .gitignore
-```
+Completed – This is a console-based project built for learning and practising C++ programming.
 
-## 📚 Learning Outcomes
+## Developed By
 
-- Practical implementation of C++ programming.
-- Managing records using STL vectors.
-- Understanding file input and output.
-- Implementing search, update, and delete operations.
-- Performing stock and billing calculations.
-- Testing and debugging a complete console application.
+**Shivam Jha**
 
-## 🔮 Future Improvements
-
-- MySQL / SQLite database integration
-- Admin login and authentication
-- Sales and transaction history
-- Sales reports and analytics
-- GUI-based interface
-- Barcode scanning
-
-## 📌 Project Status
-
-Core features implemented and tested.
-
-**Note:** This is an educational project, not production-grade inventory or accounting software.
-
----
-
-**Developed by Shivam Jha**  
-B.Tech CSE (AI & ML)
+B.Tech – Computer Science & Engineering (AI & ML)
